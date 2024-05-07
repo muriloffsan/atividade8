@@ -1,0 +1,79 @@
+html,body{
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+}
+nav{
+    background-color: black;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav .nav-links ul{
+    margin-right: 20px;
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+
+}
+nav .nav-links ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+
+}
+nav .nav-login{
+    background-color: black;
+}
+nav .nav-login a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+a:hover{
+    background-color: darkgrey;
+
+}
+.secao{
+    border: solid 1px aliceblue;
+    height: 100%;
+}
+footer{
+    background-color: black;
+    color: snow;
+    text-align: center;
+    padding: 20px;
+    /* permanecer fixo indempendente da rolagem da pagina */
+    position: fixed;
+    bottom: 0;
+    /* largura */
+    width: 100%;
+}
+form{
+    background-color: beige;
+    border-radius: solid 4px white;
+    width: 303px;
+    /* centraliza o formulario automaticamente no meio da pagina horizontalmente*/
+    margin: auto;
+    /* faz com que o form seja tratado como um bloco flexicivel */
+    display: block;
+    margin-top: 200px;
+    padding: 20px;
+
+}
+input{
+    /* largura relativa ao form */
+    width: 90%;
+    padding: 6px;
+    margin-bottom : 8px;
+    border: 1px solid blue;
+    border-radius: 5px;
+
+}
