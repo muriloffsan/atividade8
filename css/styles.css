@@ -93,6 +93,10 @@ input{
     background-color: cornflowerblue;
    }
    .imagem img {
-    width: 200px; /* Defina o tamanho desejado */
-    height: auto; /* Mantém a proporção original da imagem */
+    width: 200px; 
+    height: auto;
+}
+.nav-image img {
+    width: 30%; 
+    height: auto;
 }
