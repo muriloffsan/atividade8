@@ -77,3 +77,22 @@ input{
     border-radius: 5px;
 
 }
+.imagem {
+        float: left;
+   }
+   p {
+    text-align: justify;
+    margin-bottom: 10px;
+   }
+   .secao {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   body{
+    background-color: cornflowerblue;
+   }
+   .imagem img {
+    width: 200px; /* Defina o tamanho desejado */
+    height: auto; /* Mantém a proporção original da imagem */
+}
