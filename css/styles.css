@@ -6,7 +6,7 @@ html,body{
 }
 nav{
     background-color: black;
-    padding: 20px;
+    padding: 2px;
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
@@ -27,7 +27,6 @@ nav .nav-links ul li a{
     color: aliceblue;
     text-decoration: none;
     padding: 15px;
-
 }
 nav .nav-login{
     background-color: black;
@@ -42,7 +41,7 @@ a:hover{
 
 }
 .secao{
-    border: solid 1px aliceblue;
+    border: solid 1px rgb(189, 189, 189);
     height: 100%;
 }
 footer{
@@ -73,7 +72,7 @@ input{
     width: 90%;
     padding: 6px;
     margin-bottom : 8px;
-    border: 1px solid blue;
+    border: 1px solid rgb(197, 180, 180);
     border-radius: 5px;
 
 }
@@ -90,7 +89,7 @@ input{
     margin-right: auto;
    }
    body{
-    background-color: rgb(150, 169, 205);
+    background-color: rgb(234, 234, 234);
    }
    .imagem img {
     width: 200px; 
@@ -115,7 +114,11 @@ input{
     height: 100%; 
 }
 
-#insta{
+#insta a{
     color: white;
     text-decoration: none;
+}
+
+#imagem_ilu{
+    text-align: center;
 }
